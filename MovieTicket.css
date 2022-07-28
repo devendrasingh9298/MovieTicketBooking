@@ -1,0 +1,33 @@
+#container{
+    position: relative;
+}
+#movieContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    border-radius: 4px;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 3px 3px #cbcbcb;
+
+}
+img{
+    width: 300px;
+    height: 250px;
+    
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 5px 10px;
+}
+
+.runningTime{
+    font-size: 15px;
+    font-weight: 200;
+    color: grey;
+    margin: 0px 0px 10px 10px;
+}
